@@ -110,6 +110,7 @@ typedef enum opr Operator;
     
     currentOpr = none;
     currentValue = 0;
+    self.myLable.text = @"0";
 }
 
 - (void)didReceiveMemoryWarning {
